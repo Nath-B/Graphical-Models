@@ -1,6 +1,6 @@
 # Linear and quadratic classification
 
-This folder provides MATLAB implementation for a few probabilistic graphical models algorithms :
+These files provide MATLAB implementation for a few probabilistic graphical models algorithms :
 
 - Linear regression
 - Logistic regression
