@@ -23,7 +23,7 @@ def EMgeneral(mu_precf,pif,sigmaf,X_trainf,n_clusters=4):
         
         '''Expectation step'''
         # First compute a matrix with the terms needed to compute q_ik
-        denom=np.zeros((500,n_clusters))
+        denom=np.zeros((len(X_train),n_clusters))
         for j in range(n_clusters):
             for i in range(len(X_train)):
                     inv_j=np.linalg.inv(sigma[j])
